@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{694B1F2B-A699-4E50-93D6-1FA4DB4A87EF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NYResolution/Program.cs">
+    <Files>
+      <File FileName="NYResolution/Program.cs" Line="56" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NYResolution" expanded="True">
+            <Node name="NYResolution" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NYResolution PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

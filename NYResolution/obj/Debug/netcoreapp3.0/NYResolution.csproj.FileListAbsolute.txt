@@ -1,0 +1,11 @@
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/obj/Debug/netcoreapp3.0/NYResolution.csprojAssemblyReference.cache
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/obj/Debug/netcoreapp3.0/NYResolution.AssemblyInfoInputs.cache
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/obj/Debug/netcoreapp3.0/NYResolution.AssemblyInfo.cs
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/bin/Debug/netcoreapp3.0/NYResolution
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/bin/Debug/netcoreapp3.0/NYResolution.deps.json
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/bin/Debug/netcoreapp3.0/NYResolution.runtimeconfig.json
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/bin/Debug/netcoreapp3.0/NYResolution.runtimeconfig.dev.json
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/bin/Debug/netcoreapp3.0/NYResolution.dll
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/bin/Debug/netcoreapp3.0/NYResolution.pdb
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/obj/Debug/netcoreapp3.0/NYResolution.dll
+/Users/Britta/Desktop/NewYearResolution/NYResolution/NYResolution/obj/Debug/netcoreapp3.0/NYResolution.pdb
