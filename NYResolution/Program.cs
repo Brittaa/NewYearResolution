@@ -37,6 +37,12 @@ namespace NYResolution
 
             AddToFile(resolutionList);
             Ask(resolutionList);
+            int j = 1;
+            foreach (Resolution resolution in resolutionList)
+            {
+                Console.WriteLine($"Resolution {j} on your New Year's resolution list is {resolution.description}");
+                j++;
+            }
         }
         public static void Add(List<Resolution> resolutionList)
         {
@@ -45,16 +51,18 @@ namespace NYResolution
             Resolution userResolution2 = new Resolution(userAnswer);
             resolutionList.Add(userResolution2);
         }
-        public static void Remove(List<Resolution> removedToFile)
+        public static void Remove(List<Resolution> resolutionList)
         {
-            string filePath = @"/Users/Britta/Desktop/NewYearResolution/NewYearResolution.txt";
-            File.ReadAllLines(filePath).ToList();
-            List<string> removeToFile = new List<string>();
             Console.WriteLine("Remove your New Year Resolution:");
             string userInputRemove = Console.ReadLine();
-            Resolution userResolution = new Resolution(userInputRemove);
-            removedToFile.Remove(userResolution);
-            File.WriteAllLines(filePath, removeToFile.ToArray());
+            for (int i = 0; i < resolutionList.Count; i++)
+            {
+                if (resolutionList[i].description == userInputRemove)
+                {
+                    resolutionList.Remove(resolutionList[i]);
+                }
+            }
+           
             Console.WriteLine("Your resolution has been deleted");
         }
         public static void AddToFile(List<Resolution>resolutionList)
@@ -75,9 +83,9 @@ namespace NYResolution
         }
         public static void Ask(List<Resolution> resolutionList)
         {
-            Console.WriteLine("Would you like to add/remove your resolution or quit?");
+            Console.WriteLine("\nWould you like to add/remove your resolution or quit?");
             string userAnswer = Console.ReadLine();
-
+            Console.Clear();
             if (userAnswer.ToLower() == "add")
             {
                 Add(resolutionList);
@@ -87,6 +95,7 @@ namespace NYResolution
             else if (userAnswer.ToLower() == "remove")
             {
                 Remove(resolutionList);
+                AddToFile(resolutionList);
             }
             else if(userAnswer.ToLower() == "quit")
             {
